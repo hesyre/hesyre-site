@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HESYRE — strona w przebudowie</title>
+  <meta name="description" content="Strona HESYRE jest obecnie w przebudowie. Wracamy wkrótce.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="assets/logo-hesyre.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page" aria-label="Komunikat o przebudowie strony">
+    <section class="content">
+      <div class="logo-card" aria-label="HESYRE">
+        <img src="assets/logo-hesyre.jpg" alt="HESYRE — House Eco Systems & Real Estate" class="logo">
+      </div>
+
+      <h1>Strona jest w przebudowie</h1>
+      <p class="lead">Przeprowadzamy niezbędne prace techniczne.</p>
+      <p class="return">Wracamy wkrótce!</p>
+
+      <div class="contact" aria-label="Kontakt">
+        <p>W międzyczasie zapraszamy do kontaktu:</p>
+        <p>tel: <a href="tel:+48538533949">538 533 949</a></p>
+        <p>mail: <a href="mailto:biuro@hesyre.net">biuro@hesyre.net</a></p>
+      </div>
+    </section>
+
+    <footer>© <span id="year"></span> HESYRE</footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
